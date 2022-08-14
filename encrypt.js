@@ -1,6 +1,6 @@
  //alert("hello");
 // declaring a function
- encryption = message => {
+encryption = message => {
 
     // declaring a variable
     let encryptedMessage;
@@ -154,7 +154,8 @@ decryption = message => {
 
 
         let letter;
-
+          
+        //use switch statement
         switch(messageArr[i]) {
             case "$":
                 letter = "a";
